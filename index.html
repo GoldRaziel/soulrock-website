@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soul Rock Museum Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+    }
+    header {
+      background: url('01_esterno_notte.png') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #00ccff;
+    }
+    header h1 {
+      font-size: 3.5em;
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      padding: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #00ccff;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #00aacc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Where Rock Legends Come Back to Life – In the Heart of Dubai.</h1>
+  </header>
+
+  <section>
+    <h2>About the Soul Rock Museum Restaurant</h2>
+    <p>
+      Soul Rock is not just a restaurant – it’s an immersive experience that blends food, cinema, music, and emotion.
+      Enter a place where the spirit of the 80s and 90s lives on through full-scale statues, iconic memorabilia,
+      rock legends, and holograms of music and movie heroes. All set in a modern, elegant, and electrifying atmosphere in downtown Dubai.
+    </p>
+  </section>
+
+  <section>
+    <h2>Inside the Experience</h2>
+    <div class="gallery">
+      <img src="02_reception.png" alt="Reception" />
+      <img src="03_attesa_reception.png" alt="Reception Lounge" />
+      <img src="04_sala_ed209.png" alt="ED209 Statue" />
+      <img src="05_sala_cocktail_mj.png" alt="Cocktail Lounge MJ" />
+      <img src="06_bancone_birra_t800.png" alt="Bar T800" />
+      <img src="07_cucina_vista.png" alt="Open Kitchen" />
+      <img src="08_parete_jeans.png" alt="Vinyl Wall" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Become a Founding Investor</h2>
+    <p>
+      Be part of the legend. We are raising funds to bring this unique concept to life in Dubai.
+      As an investor or donor, your name will be honored in our Hall of Legends – and maybe even with your own table or statue.
+      Want the pitch PDF? <a href="#">Request it now</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form action="mailto:paolocimino21@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Soul Rock Museum Restaurant. All rights reserved.
+  </footer>
+</body>
+</html>
